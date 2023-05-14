@@ -1,0 +1,36 @@
+.container {
+    background-color: red;
+    background-repeat: no-repeat;
+}
+
+input {
+    outline: none;
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.eye {
+    display: flex;
+    transform: translateY(-1940%);
+    justify-content: center;
+    align-items: center;
+}
+
+#icon {
+    font-size: 20px;
+    color: #777;
+    transition: 0.2s ease;
+}
+
+#icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.input{
+    margin-top: 450px;
+    margin-left: 720px;
+    margin-bottom: 360px;
+}
